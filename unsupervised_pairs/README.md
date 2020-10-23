@@ -1,5 +1,5 @@
-Author: Franklin Williams
-Contact: streater@uw.edu
+Author: Franklin Williams  
+Contact: streater@uw.edu  
 
 How to run:
 
