@@ -4,6 +4,6 @@ Repo of projects related to applications of machine learning within finance, wit
 
 Feel free to reach out to collaborate!
 
-Cheers
-Franklin
+Cheers  
+Franklin  
 streater@uw.edu
