@@ -103,7 +103,7 @@ Quandl==3.5.2
 requests==2.24.0
 requests-oauthlib==1.3.0
 retrying==1.3.3
-rsa==4.6
+rsa==4.7
 scikit-learn==0.23.1
 scipy==1.4.1
 scs==2.1.2
