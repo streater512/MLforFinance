@@ -158,8 +158,11 @@ class OpticsPairs:
             # Get independent and dependent variables
             # for OLS calculation and corresponding
             # pvalue for Engle-Granger tests
-            pvalue, x, y = OpticsPairs.get_ols_variables(security_0, security_1)
+            pvalue, x_, y_ = OpticsPairs.get_ols_variables(security_0, security_1)
             engle_granger_tests.append(pvalue)
+            
+            x = np.array(x_, dtype = float)
+            y = np.array(y_, dtype = float)
 
             # Get parameters and calculate spread
             model = sm.OLS(y, x)
